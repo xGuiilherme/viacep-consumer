@@ -7,7 +7,7 @@ Para executar esta API, você precisa ter instalado:
 - Java 11
 - Maven 3.X
 
-## 🔗 Endpoints
+## Endpoint
 - localhost:8080/api/{cep}
 
 | Method | Route        | Description              | Body required |
