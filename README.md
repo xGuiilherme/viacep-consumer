@@ -7,6 +7,13 @@ Para executar esta API, você precisa ter instalado:
 - Java 11
 - Maven 3.X
 
+## 🔗 Endpoints
+- localhost:8080/api/{cep}
+
+| Method | Route        | Description              | Body required |
+|--------|--------------|--------------------------|---------------|
+| GET    | `/api/{cep}` | Buscar um CEP específico | false         |
+
 ## Retorno da consulta no formato JSON
 Após realizar a consulta do CEP, você pode pegar o conteúdo retornado no formato JSON.
 
@@ -22,3 +29,4 @@ Após realizar a consulta do CEP, você pode pegar o conteúdo retornado no form
 "gia": "1004"
 }
 ```
+Para ter acesso a API do 'viacep' que foi utilizada para fazer essa requisição [clique aqui](https://viacep.com.br).

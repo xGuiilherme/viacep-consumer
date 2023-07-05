@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("/ceps")
+@RequestMapping("/api")
 public class CepController {
 
     private final CepClient cepClient;
