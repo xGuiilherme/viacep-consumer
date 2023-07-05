@@ -1,0 +1,3 @@
+logging:
+  level:
+    project.user.UserClient: DEBUG
